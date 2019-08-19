@@ -21,6 +21,9 @@ npm install royal-rumble
   const royalNames = ["Ali V", "Bangi II", "Robert III", "Stannis II", "Cersei IX"]
 
   const sortedRoyalNames = royalRumble(royalNames)
+
+  console.log(sortedRoyalNames);
+  // output: ["Ali V", "Bangi II", "Cersei IX", "Robert III", "Stannis II"]
 ```
 
 ## Contributor
