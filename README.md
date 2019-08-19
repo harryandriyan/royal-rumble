@@ -21,9 +21,8 @@ npm install royal-rumble
   const royalNames = ["Ali V", "Bangi II", "Robert III", "Stannis II", "Cersei IX"]
 
   const sortedRoyalNames = royalRumble(royalNames)
-
 ```
 
- ## Contributor
+## Contributor
  - [harryandriyan](https://github.com/harryandriyan)
  
