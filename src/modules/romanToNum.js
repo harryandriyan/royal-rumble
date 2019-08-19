@@ -1,4 +1,4 @@
-export default function romanToNum(roman) {
+export function romanToNum(roman) {
   if (roman === "")           return 0;
   if (roman.startsWith("L"))  return 50 + romanToNum(roman.substr(1));
   if (roman.startsWith("XL")) return 40 + romanToNum(roman.substr(2));

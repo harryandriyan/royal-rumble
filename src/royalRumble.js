@@ -1,6 +1,6 @@
 import { romanToNum } from './modules/romanToNum';
 
-export default function royalRumble(names = []) {
+export function royalRumble(names = []) {
   if (names.length === 0) return names;
   return (
     names
